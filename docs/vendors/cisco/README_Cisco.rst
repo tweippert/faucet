@@ -11,6 +11,10 @@ According to Cisco, the solution support is currently in beta on the following m
 - `C9410R with SUP1 <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9400-series-switches/datasheet-c78-739053.html>`_
 - `C9500-48X-A <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/datasheet-c78-738978.html>`_
 
+Successfull Faucet users tests on the following models:
+
+- `C9500-48Y-4C <https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/datasheet-c78-738978.html>`_
+
 Compatible IOS XE releases
 --------------------------
 
@@ -26,6 +30,8 @@ The IOS XE configuration guide section on OpenFlow also references FAUCET, and l
 Until Cisco confirms non-beta support, it may still be neccessary to obtain beta images for some or all models.
 
 For access to the beta image and for solution support, please send an email to `cat9k-openflow-triage(mailer list) <cat9k-openflow-triage@cisco.com>`_.
+
+Faucet Users successfull deploy OpenFlow/Faucet on native Cisco IOS XE Gibraltar 16.12.1c Release. Fuji Release 16.9.4 seems crashing on some C9500 Platforms.
 
 Setup
 -----
